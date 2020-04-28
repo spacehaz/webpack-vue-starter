@@ -1,10 +1,12 @@
 <template>
-  <header :class="$style.container">footer</header>
+  <footer :class="$style.container">
+    footer
+  </footer>
 </template>
 
 <script>
   export default {
-    name: 'Footer',
+    name: 'Footer'
   }
 </script>
 

@@ -1,19 +1,19 @@
 <template>
   <div>
     <Header title="you suck"></Header>
-    <h3 :class="$style.red">Users:</h3>
+    <Items></Items>
     <Footer></Footer>
   </div>
 </template>
 
 <script>
-  import { Header, Footer } from 'components/common'
-
+  import { Header, Footer, Items } from 'components/common'
   export default {
     name: 'App',
     components: {
       Header,
-      Footer
+      Footer,
+      Items
     }
   }
 </script>
